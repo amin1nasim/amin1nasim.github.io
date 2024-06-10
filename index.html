@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amin Nasim - Personal Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-6.5.2-web/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <nav>
                 <a href="#about-me">About</a>
-                <a href="#projects">Projects</a>
+                <a href="projects.html">Projects</a>
             </nav>
         </header>
         <div class="container">
             <div class="sidebar">
-                <img src="https://via.placeholder.com/120" alt="Profile Picture">
+                <img src="profile_img.jpeg" alt="Profile Picture">
                 <h1>Amin Nasim</h1>
                 <p>Calgary, Canada</p>
-                <p>Welcome to my website!</p>
+                <p>Welcome to my website! 👋</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/amin-nasim/">LinkedIn</a>
-                    <a href="https://github.com/amin1nasim">GitHub</a>
-                    <a href="mailto:amin.nasim76@gmail.com">Gmail</a>
+                    <a href="https://www.linkedin.com/in/amin-nasim/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/amin1nasim" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:amin.nasim76@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
             <div class="content">
@@ -34,6 +35,65 @@
                         <p>During my Bachelor's in Computer Engineering, nothing felt better than writing a piece of code that worked. It was then that I became familiar with machine learning, a turning point in my journey. I realized that my love for linear algebra and calculus could be combined with programming to create astonishing results, sparking my passion for AI.</p>
                         <p>I pursued my Master's in Computer Science at the University of Calgary, where I delved into computer graphics and visualization. These fields excite me because I enjoy making complex topics tangible and understandable, and visualization is a powerful tool for that. My project, which involved machine learning, focused on improving volume visualization across different fields, yielding exciting results.</p>
                         <p>Today, I have an insatiable thirst for learning and am eager to take on new projects that can positively impact the world. I am enthusiastic about applying my skills and knowledge to create innovative solutions that drive progress and make a difference.</p>
+                    </div>
+                </div>
+                <div class="section" id="education" onclick="toggleSection('education')">
+                    <h2>Education</h2>
+                    <div id="education-content" class="section-content">
+                        <div class="skill-card">
+                            <h3>Masters of Computer Science</h3>
+                            <p>University of Calgary</p>
+                            <p>GPA: 4/4</p>
+                            <p>Thesis Project: Deep learning method to assist volume visualization by generating optimized transfer functions. <a href="https://hdl.handle.net/1880/118489">(link to thesis)</a></p>
+                            <p>Coursework: Social Media Analysis and Data Mining, Random Variables & Stochastic Processes, Animation, and Rendering.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Bachelor of Science in Computer Engineering</h3>
+                            <p>Bu-Ali University</p>
+                            <p>GPA: 3.9/4</p>
+                            <p>Final Project: Colorizing gray scale images using deep neural networks</p>
+                            <p>Coursework: Pattern Recognition, Image Processing, Linear Algebra, Advanced Programming, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="skills" onclick="toggleSection('skills')">
+                    <h2>Skills</h2>
+                    <div id="skills-content" class="section-content">
+                        <div class="skill-card">
+                            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                            <p>Python, C++, C, Matlab, SQL</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3><i class="fas fa-laptop-code"></i> Frameworks</h3>
+                            <p>PyTorch, TensorFlow (Keras)</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3><i class="fas fa-book"></i> Libraries</h3>
+                            <p>NumPy, Scikit-Learn, Pandas, Matplotlib, OpenGL, OpenCV</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3><i class="fas fa-tools"></i> Tools</h3>
+                            <p>TensorBoard, Jupyter, Git, Paraview, 3D Slicer, Cisco Packet Tracer</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3><i class="fas fa-cogs"></i> Other</h3>
+                            <p>Linux, SLURM Job Scheduler, LATEX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="publications" onclick="toggleSection('publications')">
+                    <h2>Publications</h2>
+                    <div id="publications-content" class="section-content">
+                        <div class="skill-card">
+                            <h3>TTF: A Guided Approach to Transfer Function Optimization in Volume Visualization</h3>
+                            <p>2024, SIBGRAPI, Manaus, Brazil</p>
+                            <p>Under Review</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>An Efficient Approach for Using EM Algorithm in Capsule Networks</h3>
+                            <p>2019, International Conference on Machine Vision and Image Processing, Qom, Iran</p>
+                            <p>Arxiv: <a href="https://arxiv.org/abs/1912.05333" target="_blank">arxiv.org/abs/1912.05333</a></p>
+                        </div>
                     </div>
                 </div>
                 <!-- <div class="section" id="projects" onclick="toggleSection('projects')">
